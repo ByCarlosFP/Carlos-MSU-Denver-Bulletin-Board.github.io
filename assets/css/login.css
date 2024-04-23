@@ -22,8 +22,8 @@ body {
 .header h1 {
     margin: 0;
     padding: 0 20px;
-    flex-grow: 1;
     text-align: center;
+    flex: 1;
     font-size: 40px; /* Adjust based on your preference */
 }
 
@@ -137,5 +137,13 @@ button[type="submit"]:hover {
         transform: translateX(-50%); /* Adjusts horizontal position to truly center it */
         width: 90%; /* Limits width to prevent edge-to-edge stretching */
     }
+
+    .login-container {
+        width: 80%;
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
 }
 
